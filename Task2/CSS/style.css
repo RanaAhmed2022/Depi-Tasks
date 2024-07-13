@@ -1,0 +1,42 @@
+body{
+    background-color: black;
+}
+
+.parafont{
+    color: white;
+    font-size: 48px;
+    font-family: "Urbanist", sans-serif;
+    line-height: 60px;
+}
+
+.highlight{
+    color: #b79632;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 800;
+    font-size: 70px;
+}
+
+.div1{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-left: 50px;
+    margin-right: 20px;
+}
+
+.hammerimg{
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.div2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 250px 0;
+}
