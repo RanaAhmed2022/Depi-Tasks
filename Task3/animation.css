@@ -21,6 +21,7 @@ header {
 .carousel-track {
     display: flex;
     animation: slide 10s infinite;
+    animation-delay: 1s;
 }
 
 .carousel-item {
