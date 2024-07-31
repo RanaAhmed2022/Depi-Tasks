@@ -1,0 +1,110 @@
+/*--------------MAIN STYLES FOR ALL PAGES---------*/
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.business-page {
+	background-color: #161616;
+	height: auto;
+	width: 100%;
+	margin-bottom: 0px;
+}
+
+.page-heading {
+	text-align: center;
+	font-size: 30pt;
+	color: #b79632;
+	font-family: "Kanit", sans-serif;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.contact-contain {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+	background-color: #161616;
+}
+
+.first-card,
+.second-card {
+	max-width: 450px;
+	width: auto;
+	height: auto;
+	margin: 20px 10px;
+}
+
+.contact-icons {
+	width: 70px;
+	height: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.contact-cards-headers {
+	font-size: 20pt;
+	color: #b79632;
+	font-family: "Urbanist", sans-serif;
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	min-height: 60px;
+	height: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.contact-cards-paragraph {
+	font-size: 14pt;
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #d6d3cb;
+	font-family: "Urbanist", sans-serif;
+	margin-bottom: 10px;
+}
+
+.more-business {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.arrow {
+	width: 15px;
+	height: 15px;
+	margin-left: 8px;
+}
+
+.more-areas {
+	color: #b79632;
+	text-decoration: none;
+	font-size: 16pt;
+}
+.more-areas:hover {
+	color: #6d581b;
+	text-decoration: none;
+	font-size: 16pt;
+	transition: 0.5s;
+}

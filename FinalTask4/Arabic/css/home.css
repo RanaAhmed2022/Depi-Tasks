@@ -1,0 +1,377 @@
+/*--------------MAIN STYLES FOR ALL PAGES---------*/
+
+* {
+	margin: 0%;
+	padding: 0%;
+}
+html {
+	scroll-behavior: smooth;
+}
+body{
+	font-family: 'IBM Plex Sans Arabic', sans-serif;
+font-family: 'Tajawal', sans-serif;}
+/*-----------------------------------------------------------------------------*/
+
+/*  BUTTONS : #b49d74 */
+
+/* HEADINGS : #b79c75 */
+
+.landing-img {
+	width: 100%;
+	height: 100vh;
+	position: absolute;
+	background-image: url(https://mohameds16.github.io/jfc-consultant/images/pexels-photo-8693379.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.layer {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(255, 255, 255, 0.1);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	flex-wrap: wrap;
+}
+
+.info {
+	width: 70%;
+	height: auto;
+}
+
+.landing-info {
+	width: 40%;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.landing-info2 {
+	width: 60%;
+}
+
+.large-heading {
+	font-family: 'Rakkas';
+	font-weight: 400;	
+	font-size: 60px;
+	color: black;
+	text-align: center;
+}
+
+.heading-span {
+	font-family: 'Rakkas';
+	font-weight: 400;
+	font-size: 60px;
+	color: #b79632;
+}
+
+.small-heading {
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 22px;
+	color: black;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.get-started {
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 15px 50px;
+	border-radius: 50px;
+	background-color: #b79632;
+	font-size: 20px;
+	font-family: 'Changa';
+	font-style: normal;
+	font-weight: 600;
+	box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.get-started:hover {
+	background-color: #a1842d;
+	transition: 0.5s;
+}
+
+.business-section {
+	width: 100%;
+	background-color: #181818;
+	padding: 100px 0px 60px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	direction: rtl;
+}
+
+.practice-info {
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: auto;
+	padding-bottom: 50px;
+	flex-wrap: wrap;
+}
+
+.practice {
+	color: #b79632;
+	font-size: 50px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+}
+
+.practice-one {
+	width: 480px;
+	padding: 30px 30px;
+	margin-bottom: 50px;
+}
+
+.businesses {
+	width: 400px;
+	padding-top: 30px;
+}
+
+.practice-img {
+	width: 300px;
+}
+
+.practice-para {
+	color: white;
+	margin-top: 30px;
+	font-size: 18px;
+}
+
+.business-areas {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	padding-bottom: 25px;
+}
+
+.area-info {
+	width: 100%;
+}
+.area-heading {
+	margin: 0%;
+	padding: 0%;
+	font-size: 22px;
+	font-family: 'Changa';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	margin-right: 20px;
+	color: #b79632;
+	padding-bottom: 5px;
+}
+
+.area-img {
+	width: 60px;
+	height: 60px;
+}
+
+.area-para {
+	margin: 0%;
+	padding: 0%;
+	font-size: 16px;
+	font-family: 'Cairo';
+	font-style: normal;
+	font-weight: 400;
+	margin-right: 20px;
+	color: white;
+}
+
+.more-business {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.arrow {
+	width: 13px;
+	height: 13px;
+	margin-left: 10px;
+}
+
+.more-areas {
+	text-decoration: none;
+	color: #b79632;
+	font-size: 18px;
+	padding-top: 20px;
+	font-family: 'Changa';
+	font-style: normal;
+	font-weight: 600;
+}
+
+.more-areas:hover {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.experience {
+	width: 100%;
+	height: auto;
+	background-color: #1b1b1b;
+	display: flex;
+	justify-content: center;
+	direction: rtl;
+}
+
+.exp {
+	width: 510px;
+	display: flex;
+	justify-content: center;
+	text-align: left;
+	padding-left: 50px;
+	margin-right: 20px;
+}
+
+.exp-divs {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	height: auto;
+	padding: 70px 0;
+}
+
+.exp-header {
+	color: white;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	line-height: 60px;
+	text-align: center;
+}
+
+.exp-span {
+	color: #b79632;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	font-size: 70px;
+}
+.exp-span1 {
+	color: #b79632;
+	font-family: 'urbanist';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	font-size: 70px;
+}
+
+.experience-img {
+	width: 450px;
+	height: 300px;
+	border-radius: 30px;
+}
+
+.company {
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+	padding-top: 20px;
+	background-color: #181818;
+}
+
+.companies-header {
+	color: #b79632;
+	text-align: center;
+	font-size: 55px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	text-shadow: 1px 1px 1px black;
+}
+
+.companies {
+	width: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+.companies-divs {
+	display: flex;
+	justify-content: center;
+	height: auto;
+	flex-wrap: wrap;
+}
+
+.companies-steps {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Urbanist", sans-serif;
+	font-weight: 600;
+	text-align: center;
+	padding-bottom: 50px;
+	font-size: 28px;
+	color: #b79632;
+}
+
+.companies-cards {
+	padding: 10px;
+	width: 280px;
+}
+
+@media screen and (max-width: 970px) {
+	.layer {
+		background-color: rgba(255, 255, 255, 0.4);
+	}
+
+	.info {
+		width: 90%;
+	}
+
+	.landing-info {
+		width: 70%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 510px) {
+	.info {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+	.experience-img {
+		width: 90%;
+		height: 300px;
+		border-radius: 30px;
+	}
+}
+
+@media screen and (max-width: 585px) {
+	.landing-info {
+		width: 100%;
+		padding: 0 20px;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.landing-info2 {
+		width: 0%;
+	}
+}

@@ -1,0 +1,391 @@
+html {
+	scroll-behavior: smooth;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p,
+li,
+a {
+	font-family: 'Changa', sans-serif;
+	font-weight: 400;
+}
+
+
+
+/* Original Font sizes*/
+p {
+	font-size: 16px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 18px;
+}
+
+
+/* Media Queries */
+/* 1- Mobile */
+
+@media (max-width: 768px) {
+
+	.vision-mission .big-vision-mission .vision-part,
+	.vision-mission .big-vision-mission .mission-part {
+		width: 550px;
+		display: flex;
+		height: auto !important;
+		justify-content: flex-start;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		box-shadow: 1px 1px 10px rgba(170, 147, 147, 0.589);
+		border-radius: 10px;
+		padding-bottom: 30px;
+	}
+
+	.no-1,
+    .no-2,
+    .no-3 {
+	width: auto;
+	margin: 0 15px;
+	padding: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 13px;
+	border-radius: 10px 0 10px 0;
+	text-align: center;
+}
+}
+
+.main {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	direction: rtl;
+}
+
+.main h1 {
+	font-size: 50px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	text-align: center;
+	padding: 70px 0;
+	padding-bottom: 30px;
+}
+
+.light .main h1,
+.light .vision-mission h1,
+.light .vision-mission .fa,
+.light .sectitle {
+	color: #b79632;
+	font-weight: 600;
+	font-display: swap;
+}
+
+.sectitle{
+	color: #b79632;
+	font-family: 'Changa';
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+}
+
+.dark .main h1,
+.dark .vision-mission h1,
+.dark .vision-mission .fa,
+.dark .sectitle,
+.dark .sec-paragraph {
+	color: white;
+}
+
+.dark .vision-mission .big-vision-mission,
+.dark .vision-mission {
+	background-color: #1b1b1b;
+}
+
+.dark .main-content {
+	background-color: #161515;
+}
+
+.main .main-content {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	background-color: #1b1b1b !important;
+}
+
+.main .main-content .buttons {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dark {
+	background-color: #161515;
+}
+
+.no-1,
+.no-2,
+.no-3 {
+	width: auto;
+	margin: 0 15px;
+	padding: 15px;
+	cursor: pointer;
+	transition: 0.5s;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 18px;
+	border-radius: 10px 0 10px 0;
+	text-align: center;
+}
+
+.light .no-1,
+.light .no-2,
+.light .no-3 {
+	background-color: #b79632;
+	border: 2px solid #b79632;
+	color: #fff;
+}
+
+.light .no-1:hover,
+.light .no-2:hover,
+.light .no-3:hover {
+	color: white;
+	background-color: transparent;
+	transition: 0.5s;
+	border-radius: 0px 10px 0px 10px;
+}
+
+.dark .no-1,
+.dark .no-2,
+.dark .no-3 {
+	background-color: white;
+	color: black;
+	border: 2px solid white;
+}
+
+.dark .no-1:hover,
+.dark .no-2:hover,
+.dark .no-3:hover {
+	color: white;
+	background-color: transparent;
+	transition: 0.5s;
+	border-radius: 0px 10px 0px 10px;
+}
+
+.main .main-content .about-us,
+.main .main-content .vision,
+.main .main-content .mission {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+	padding: 30px 0 50px 0;
+	flex-wrap: wrap;
+}
+
+.light .main-content {
+	background: white;
+}
+
+.content-img {
+	width: 400px;
+	height: 450px;
+	margin: 30px;
+	overflow: hidden !important;
+	border-radius: 10px;
+}
+
+.main .main-content .about-us img,
+.main .main-content .vision img,
+.main .main-content .mission img {
+	width: 400px;
+	height: 450px;
+	object-fit: cover;
+	border-radius: 2px;
+	box-shadow: 6px 6px 6px lightgray;
+	transition: 0.5s;
+}
+
+.main .main-content .about-us img:hover,
+.main .main-content .vision img:hover,
+.main .main-content .mission img:hover {
+	width: 450px;
+	height: 450px;
+	transition: 0.5s;
+}
+
+.main .main-content .about-us h3,
+.main .main-content .vision h3,
+.main .main-content .mission h3,
+.vision-mission .big-vision-mission .vision-part h3,
+.vision-mission .big-vision-mission .mission-part h3 {
+	font-size: 34px;
+	margin: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.discprition {
+	width: auto;
+	max-width: 550px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.sec-paragraph {
+	width: 90%;
+	text-align: center;
+	line-height: 35px;
+	font-size: 18px;
+	padding: 10px;
+}
+
+.light .sec-paragraph {
+	color: #9b978c;
+}
+
+.main .main-content .remove {
+	display: none;
+	transition: 1s;
+}
+
+.vision-mission {
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	flex-direction: column;
+	background-color: #161515;
+	direction: rtl;
+}
+
+.vision-mission h1 {
+	font-size:60px;
+	font-family: 'Rakkas';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.vision-mission .big-vision-mission {
+	width: 95%;
+	height: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	padding: 50px 0;
+}
+
+.vision-mission .big-vision-mission .vision-part,
+.vision-mission .big-vision-mission .mission-part {
+	width: 550px;
+	display: flex;
+	height: 500px;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	box-shadow: 1px 1px 10px rgba(170, 147, 147, 0.589);
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+
+.vision-mission-image {
+	height: 100px;
+	margin-top: 50px;
+}
+
+.more-business {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.arrow {
+	width: 13px !important;
+	height: 13px !important;
+	margin-right: 10px;
+	box-shadow: none !important;
+}
+
+.more-areas {
+	text-decoration: none;
+	color: #b79632;
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+.more-areas:hover {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 320px) {
+	.main .main-content .buttons {
+		width: 310px;
+	}
+
+	.no-1,
+	.no-2,
+	.no-3 {
+		margin: 0 5px;
+	}
+}
+
+.vision-part,
+.mission-part {
+	margin: 30px 0;
+}
+
+@media screen and (max-width: 280px) {
+	.main .main-content .buttons {
+		width: 280px;
+	}
+
+	.no-1,
+	.no-2,
+	.no-3 {
+		margin: 0 1px;
+		padding: 15px 2px;
+	}
+}
