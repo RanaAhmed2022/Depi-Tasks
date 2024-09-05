@@ -8,6 +8,7 @@ html {
 }
 p,
 li,
+button,
 a {
 	font-family: "Urbanist", sans-serif;
 }
@@ -179,8 +180,8 @@ h4 {
 }
 
 .main .main-content .about-us,
-.main .main-content .vision,
-.main .main-content .mission {
+.main .main-content .aboutComp,
+.main .main-content .howCont {
 	width: 100%;
 	height: auto;
 	display: flex;
@@ -194,16 +195,33 @@ h4 {
 	background: white;
 }
 
-.content-img {
+.content-img1 {
 	width: 400px;
 	height: 450px;
 	margin: 30px;
 	overflow: hidden !important;
 	border-radius: 10px;
 }
+
+.content-img2 {
+	width: 400px;
+	height: 450px;
+	margin: 30px;
+	overflow: hidden !important;
+	border-radius: 10px;
+}
+
+.content-img3 {
+	width: 400px;
+	height: 450px;
+	margin: 30px;
+	overflow: hidden !important;
+	border-radius: 10px;
+}
+
 .main .main-content .about-us img,
-.main .main-content .vision img,
-.main .main-content .mission img {
+.main .main-content .aboutComp img,
+.main .main-content .howCont img {
 	width: 400px;
 	height: 450px;
 	object-fit: cover;
@@ -212,15 +230,15 @@ h4 {
 	transition: 0.5s;
 }
 .main .main-content .about-us img:hover,
-.main .main-content .vision img:hover,
-.main .main-content .mission img:hover {
+.main .main-content .aboutComp img:hover,
+.main .main-content .howCont img:hover {
 	width: 450px;
 	height: 450px;
 	transition: 0.5s;
 }
 .main .main-content .about-us h3,
-.main .main-content .vision h3,
-.main .main-content .mission h3,
+.main .main-content .aboutComp h3,
+.main .main-content .howCont h3,
 .vision-mission .big-vision-mission .vision-part h3,
 .vision-mission .big-vision-mission .mission-part h3 {
 	font-size: 34px;
