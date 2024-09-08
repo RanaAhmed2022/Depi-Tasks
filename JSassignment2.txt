@@ -1,32 +1,46 @@
 Problem 1:
 
 function reverseBit(bit) {
-  return bit ^ 1;
+    return bit ^ 1;
 }
+var res = reverseBit(0)
+console.log(res)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Problem 2:
 
 function sumOfDigits(number) {
-  return number
-    .toString()
-    .split('')
-    .map(Number)
-    .reduce((acc, digit) => acc + digit, 0); // Sum the digits
+    return String(number) 
+      .split('')          
+      .map(Number)        
+      .reduce((acc, digit) => acc + digit, 0); // Sum up the digits
 }
+var res = sumOfDigits(123)
+console.log(res)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Problem 3:
 
 function filterNumbers(arr) {
-  return arr.filter(item => typeof item === 'number');
-}
+    var result = [];
+    for (var i = 0; i < arr.length; i++) {
+      if (typeof arr[i] === 'number') {
+        result.push(arr[i]);
+      }
+    }
+    return result;
+  }
+  
+  var mixedArray = ['hello', 42, 'world', 100, 'foo', 25];
+  console.log(filterNumbers(mixedArray));
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 Problem 4:
 
 function animals(chickens, cows, pigs) {
-  return (chickens * 2) + (cows * 4) + (pigs * 4);
+    return (chickens * 2) + (cows * 4) + (pigs * 4);
 }
+var res = animals(2, 3, 5)
+console.log(res)
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
