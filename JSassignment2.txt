@@ -10,7 +10,7 @@ console.log(res)
 Problem 2:
 
 function sumOfDigits(number) {
-    return String(number) 
+    return number.toString() 
       .split('')          
       .map(Number)        
       .reduce((acc, digit) => acc + digit, 0); // Sum up the digits
