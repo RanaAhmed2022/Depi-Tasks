@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+[mode="light"]{
+    --nav-color:deeppink;
+    --links-color: white;
+    --primary-color: deeppink;
+    --secondary-color: white;
+    --bg-color: white;
+    --text-color: black;
+}
+
+[mode="dark"]{
+    --nav-color:white;
+    --links-color: black;
+    --primary-color: black;
+    --secondary-color: white;
+    --bg-color: black;
+    --text-color: white;
+}
+
+
+
+nav{
+    height: 60px;
+    width: 100vw;
+    background-color: var(--nav-color);
+    color: var(--links-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+
+.links a{
+    color: var(--links-color);
+    padding: 10px;
+    transition: 1s;
+}
+
+.links a:hover{
+    font-size: 20px;
+}
+
+.changeMode{
+    cursor: pointer;
+    border: 1px solid var(--links-color);
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    color: var(--nav-color);
+    transition: 1s;
+}
+
+.changeMode:hover{
+    background-color: transparent;
+    color: var(--bg-color);
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: var(--bg-color);
+}
+
+.container{
+    display: flex;
+    width: 100vw;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.container div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.container p{
+    max-width: 300px;
+    color: var(--text-color);
+}
+
+.container img{
+    background-color: white;
+    border-radius: 15px;
+}
