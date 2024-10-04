@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/nav.css">
+    <link rel="stylesheet" href="./CSS/home.css">
+    <title>Home</title>
+</head>
+<body mode="light"> 
+    <nav>
+        <p>Logo</p>
+        <div class="links">
+            <a href="#">Home</a>
+            <a href="./products.html">Products</a>
+            <a href="./contact.html">Contact Us</a>
+            <a href="./profile.html">Profile</a>
+            <a href="./register.html">Logout</a>
+            <p class="changeMode">Mode</p>
+        </div>
+    </nav>
+
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="https://images.vexels.com/media/users/3/194698/raw/34d9aa618f832510ce7290b4f183484a-shop-online-slider-template.jpg" alt="Image 1" class="active">
+            <img src="https://images.vexels.com/media/users/3/194701/raw/aa72abca784117244de372b5e9926988-online-shopping-slider-template.jpg" alt="Image 2">
+            <img src="https://images.vexels.com/media/users/3/194700/raw/aa5b7c80ff2c80f764e2cabf5492a701-buy-online-slider-template.jpg" alt="Image 3">
+        </div>
+        <div class="carousel-buttons">
+            <button class="prev" onclick="changeImage(-1)">&#10094;</button>
+            <button class="next" onclick="changeImage(1)">&#10095;</button>
+        </div>
+    </div>
+
+    <p class="welcome-message">Welcome to our Online Store</p>
+
+    <button class="scroll-to-top" onclick="scrollToTop()">↑</button>
+
+    <script src="./JS/home.js"></script>
+    <script src="./JS/nav.js"></script>
+</body>
+</html>
