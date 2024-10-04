@@ -53,7 +53,7 @@ function readNotesInHTML() {
                 </div>
                 <div class="actions"> <!-- Actions container for buttons -->
                     <button class="upd">Update</button>
-                    <button class="del" data-index="${x}">Delete</button> <!-- Add Delete button -->
+                    <button class="del" data-index="${x}">Delete</button> 
                 </div>
             </div>
         `;
